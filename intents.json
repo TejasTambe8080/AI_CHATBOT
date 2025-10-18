@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hey! Welcome to our customer service."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "quit",
+        "exit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Thanks for visiting.",
+        "Bye! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thank you very much",
+        "appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "Glad I could assist you!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours?",
+        "when are you open?",
+        "what time do you open?",
+        "working hours"
+      ],
+      "responses": [
+        "We're open Monday to Friday from 9 AM to 6 PM.",
+        "Our business hours are 9 AM to 6 PM, Monday through Friday."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where are you located?",
+        "what is your address?",
+        "where is your office?",
+        "location"
+      ],
+      "responses": [
+        "We're located at 123 Main Street, Cityville.",
+        "Our address is 123 Main Street, Cityville. Come visit us!"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "what services do you offer?",
+        "what do you provide?",
+        "services",
+        "what can you help with?"
+      ],
+      "responses": [
+        "We offer customer support, product information, and technical assistance.",
+        "Our services include customer support, product inquiries, and technical help."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "I need help",
+        "can you help me?",
+        "support"
+      ],
+      "responses": [
+        "I'm here to help! What do you need assistance with?",
+        "Sure, I'd be happy to help. What's your question?"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase?",
+        "I'm still learning. Could you try asking in a different way?",
+        "I don't have an answer for that yet. Please contact our human support team for assistance."
+      ]
+    }
+  ]
+}
