@@ -144,6 +144,7 @@ body {
 
 .chat-controls button:hover {
     background: #5a6268;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Scrollbar styling */
